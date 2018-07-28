@@ -54,7 +54,7 @@ a:hover {
     color:#A1A7B6;
     text-decoration: none;
 }
-.mainAboutMe {
+.pageTitle {
     width:960px;
     height:auto;
     background-color:#DCE4E6;
@@ -91,8 +91,39 @@ p{
     height:75px;
     border-top:5px solid #404250;
 }
-#cr{
+.cr{
     margin: 0;
     padding: 10px;
     text-align:center;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#portfolio{
+    font-family:'Roboto Slab', serif;
+    color: #333B44;
+    border-bottom: 2px solid #333B44;
+    text-align: left;
+    margin-left:25px;
+    margin-right:25px;
+    padding-top:33px;
+}
+.descBox{
+    width:200px;
+    height:33px;
+    background-color:#414C55;
+    color:#DDE0DF;
+    text-align:center;
+    padding:10px;
+    position: relative;
+    bottom:50px;
+    font-family:'Roboto', sans-serif;
 }
