@@ -5,26 +5,27 @@
 body {
     display:block;
     margin: 0;
-    background-color: #9FAEB8;
+    background-color: #6F7E93;
 }
 
 .header {
-    background-color: #68747D;
+    background-color: #2C2F3D;
     width: auto;
     height:100px;
-    border-bottom: 2px solid #404250;
+    border-bottom: 2px solid #7A7768;
+    ;
 }
-#name {
-    color:#DDE0DF;
+#Bobbi {
+    color:#EAEEEB;
     font-family:'Merriweather', serif;
     padding:10px;
     margin-top:0px;
     margin-left: 100px;
     height:100px;
     width:250px;
-    background-color: #414C55;
+    background-color: #685766;
     text-align: center;
-    border-bottom: 2px solid #404250;
+    border-bottom: 2px solid #7A7768;
 }
 
 #menu {
@@ -38,7 +39,7 @@ body {
     right: 100px;
     height:50px;
     width:250px;
-    background-color: #68747D;
+    background-color: #2C2F3D;
     text-align: center;
 }
 li {
@@ -46,7 +47,7 @@ li {
     list-style-type: none;
 }
 li a {
-    color:#DDE0DF;
+    color:#EAEEEB;
     font-family:'Merriweather Sans', sans-serif;
     text-decoration: none;
 }
@@ -57,7 +58,7 @@ a:hover {
 .pageTitle {
     width:960px;
     height:auto;
-    background-color:#DCE4E6;
+    background-color:#EAEEEB;
     margin-right:100px;
     margin-left:100px;
     margin-top:82px;
@@ -65,8 +66,8 @@ a:hover {
 }
 #aboutMe{
     font-family: 'Alegreya', serif;
-    color: #333B44;
-    border-bottom: 2px solid #333B44;
+    color: #2C2F3D;
+    border-bottom: 2px solid #2C2F3D;
     text-align: left;
     margin-left:25px;
     margin-right:25px;
@@ -80,21 +81,22 @@ a:hover {
 }
 p{
     font-family: 'Alegreya Sans', sans-serif;
-    color:#333B44;
+    color:#2C2F3D;
     margin:10px;
     line-height: 1.5;
 }
 .footer{
     margin: 0;
-    background-color: #68747D;
+    background-color: #2C2F3D;
     width: auto;
     height:75px;
-    border-top:5px solid #404250;
+    border-top:5px solid #7A7768;
 }
 .cr{
     margin: 0;
     padding: 10px;
     text-align:center;
+    color:#EAEEEB;
 }
 .column {
     float: left;
@@ -109,8 +111,8 @@ p{
 }
 #portfolio{
     font-family:'Roboto Slab', serif;
-    color: #333B44;
-    border-bottom: 2px solid #333B44;
+    color: #2C2F3D;
+    border-bottom: 2px solid #2C2F3D;
     text-align: left;
     margin-left:25px;
     margin-right:25px;
@@ -119,11 +121,54 @@ p{
 .descBox{
     width:200px;
     height:33px;
-    background-color:#414C55;
-    color:#DDE0DF;
+    background-color:#2C2F3D;
+    color:#EAEEEB;
     text-align:center;
     padding:10px;
+    padding-top: 7px;
     position: relative;
     bottom:50px;
     font-family:'Roboto', sans-serif;
+}
+#contact{
+    font-family: 'Quattrocento', serif;
+    color: #2C2F3D;
+    font-weight:bold;
+    border-bottom: 2px solid #2C2F3D;
+    text-align: left;
+    margin-left:25px;
+    margin-right:25px;
+    padding-top:33px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #2C2F3D; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2C2F3D;
+    color: #D8DBDB;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #685766;
+}
+
+.container {
+    background-color:#EAEEEB;
+    padding: 20px;
+}
+label{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:#333B44;
 }
